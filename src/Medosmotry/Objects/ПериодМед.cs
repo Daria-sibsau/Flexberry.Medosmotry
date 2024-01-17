@@ -32,13 +32,13 @@ namespace IIS.Medosmotry
         // *** Start programmer edit section *** (ПериодМед.1разВГод CustomAttributes)
 
         // *** End programmer edit section *** (ПериодМед.1разВГод CustomAttributes)
-        [Caption("1разВГод")]
+        [Caption("РазВГод")]
         1разВГод,
         
         // *** Start programmer edit section *** (ПериодМед.1разВ2Года CustomAttributes)
 
         // *** End programmer edit section *** (ПериодМед.1разВ2Года CustomAttributes)
-        [Caption("1разВ2Года")]
+        [Caption("РазВДваГода")]
         1разВ2Года,
     }
 }
