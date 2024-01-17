@@ -21,7 +21,7 @@ namespace IIS.Medosmotry
 
 
     /// <summary>
-    /// Период мед.
+    /// Периодичность.
     /// </summary>
     // *** Start programmer edit section *** (ПериодМед CustomAttributes)
 
@@ -29,16 +29,16 @@ namespace IIS.Medosmotry
     public enum ПериодМед
     {
         
-        // *** Start programmer edit section *** (ПериодМед.1разВГод CustomAttributes)
+        // *** Start programmer edit section *** (ПериодМед.РазВГод CustomAttributes)
 
-        // *** End programmer edit section *** (ПериодМед.1разВГод CustomAttributes)
-        [Caption("РазВГод")]
-        1разВГод,
+        // *** End programmer edit section *** (ПериодМед.РазВГод CustomAttributes)
+        [Caption("Раз в год")]
+        РазВГод,
         
-        // *** Start programmer edit section *** (ПериодМед.1разВ2Года CustomAttributes)
+        // *** Start programmer edit section *** (ПериодМед.РазВДваГода CustomAttributes)
 
-        // *** End programmer edit section *** (ПериодМед.1разВ2Года CustomAttributes)
-        [Caption("РазВДваГода")]
-        1разВ2Года,
+        // *** End programmer edit section *** (ПериодМед.РазВДваГода CustomAttributes)
+        [Caption("Раз в два года")]
+        РазВДваГода,
     }
 }

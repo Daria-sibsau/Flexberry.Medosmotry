@@ -28,7 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-medosmotry-инд-напр-медосм-l',
             caption: i18n.t('forms.application.sitemap.индивидуальные-направления.i-i-s-medosmotry-инд-напр-медосм-l.caption'),
             title: i18n.t('forms.application.sitemap.индивидуальные-направления.i-i-s-medosmotry-инд-напр-медосм-l.title'),
-            icon: 'list',
+            icon: 'folder',
             children: null
           }]
         }, {
@@ -52,13 +52,13 @@ export default Controller.extend({
             link: 'i-i-s-medosmotry-приказ-м-з-р-l',
             caption: i18n.t('forms.application.sitemap.справочная-информация.i-i-s-medosmotry-приказ-м-з-р-l.caption'),
             title: i18n.t('forms.application.sitemap.справочная-информация.i-i-s-medosmotry-приказ-м-з-р-l.title'),
-            icon: 'suitcase',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-medosmotry-класс-вред-фактор-l',
             caption: i18n.t('forms.application.sitemap.справочная-информация.i-i-s-medosmotry-класс-вред-фактор-l.caption'),
             title: i18n.t('forms.application.sitemap.справочная-информация.i-i-s-medosmotry-класс-вред-фактор-l.title'),
-            icon: 'table',
+            icon: 'edit',
             children: null
           }]
         }, {
@@ -70,31 +70,31 @@ export default Controller.extend({
             link: 'i-i-s-medosmotry-организации-l',
             caption: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-medosmotry-организации-l.caption'),
             title: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-medosmotry-организации-l.title'),
-            icon: 'chart bar',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-medosmotry-подразделение-l',
             caption: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-medosmotry-подразделение-l.caption'),
             title: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-medosmotry-подразделение-l.title'),
-            icon: 'chart bar',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-medosmotry-мед-учреждение-l',
             caption: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-medosmotry-мед-учреждение-l.caption'),
             title: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-medosmotry-мед-учреждение-l.title'),
-            icon: 'book',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-medosmotry-сотрудники-l',
             caption: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-medosmotry-сотрудники-l.caption'),
             title: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-medosmotry-сотрудники-l.title'),
-            icon: 'tasks',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-medosmotry-должности-l',
             caption: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-medosmotry-должности-l.caption'),
             title: i18n.t('forms.application.sitemap.организации-и-штат.i-i-s-medosmotry-должности-l.title'),
-            icon: 'tags',
+            icon: 'tasks',
             children: null
           }]
         }
