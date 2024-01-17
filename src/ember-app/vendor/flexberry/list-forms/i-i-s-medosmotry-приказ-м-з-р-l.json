@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-medosmotry-приказ-м-з-р-e",
+  "editForm": "i-i-s-medosmotry-приказ-м-з-р-e",
+  "external": false,
+  "caption": "Приказ МЗР",
+  "name": "IISMedosmotryПриказМЗРL",
+  "className": "ПриказМЗРL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-medosmotry-приказ-м-з-р",
+      "modelProjection": "ПриказМЗРL"
+    }
+  ]
+}

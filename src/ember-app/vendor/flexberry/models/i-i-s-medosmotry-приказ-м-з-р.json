@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISMedosmotryПриказМЗР",
+  "modelName": "i-i-s-medosmotry-приказ-м-з-р",
+  "className": "ПриказМЗР",
+  "nameSpace": "IIS.Medosmotry",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерПункта",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПриказМЗРE",
+      "modelName": "i-i-s-medosmotry-приказ-м-з-р",
+      "attrs": [
+        {
+          "name": "номерПункта",
+          "caption": "Номер пункта",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ПриказМЗРL",
+      "modelName": "i-i-s-medosmotry-приказ-м-з-р",
+      "attrs": [
+        {
+          "name": "номерПункта",
+          "caption": "Номер пункта",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

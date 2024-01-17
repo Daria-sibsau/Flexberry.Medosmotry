@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-medosmotry-сотрудники-e",
+  "editForm": "i-i-s-medosmotry-сотрудники-e",
+  "external": false,
+  "caption": "Сотрудники",
+  "name": "IISMedosmotryСотрудникиL",
+  "className": "СотрудникиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-medosmotry-сотрудники",
+      "modelProjection": "СотрудникиL"
+    }
+  ]
+}

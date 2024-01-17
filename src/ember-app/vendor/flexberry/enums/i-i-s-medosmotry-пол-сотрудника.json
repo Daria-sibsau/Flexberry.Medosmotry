@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Medosmotry",
+  "className": "ПолСотрудника",
+  "enumObjects": {
+    "Мужской": "Мужской",
+    "Женский": "Женский"
+  }
+}

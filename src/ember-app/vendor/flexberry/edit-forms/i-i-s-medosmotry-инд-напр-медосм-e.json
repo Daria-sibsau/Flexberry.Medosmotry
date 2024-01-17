@@ -1,0 +1,47 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Организации",
+      "projection": "ОрганизацииL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "МедУчреждение",
+      "projection": "МедУчреждениеL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудники",
+      "projection": "СотрудникиL",
+      "detailModelName": null
+    },
+    {
+      "master": "классВредФактор",
+      "displayAttributeName": "вредныйФактор",
+      "required": true,
+      "relationName": "ВреднФактПроиз.КлассВредФактор",
+      "projection": "КлассВредФакторL",
+      "detailModelName": "i-i-s-medosmotry-вредн-факт-произ"
+    }
+  ],
+  "external": false,
+  "caption": "Инд напр медосм",
+  "name": "IISMedosmotryИндНапрМедосмE",
+  "className": "ИндНапрМедосмE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-medosmotry-инд-напр-медосм",
+      "modelProjection": "ИндНапрМедосмE"
+    }
+  ]
+}

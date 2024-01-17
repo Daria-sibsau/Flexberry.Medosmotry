@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Подразделение",
+      "projection": "ПодразделениеL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Класс вред фактор",
+  "name": "IISMedosmotryКлассВредФакторE",
+  "className": "КлассВредФакторE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-medosmotry-класс-вред-фактор",
+      "modelProjection": "КлассВредФакторE"
+    }
+  ]
+}

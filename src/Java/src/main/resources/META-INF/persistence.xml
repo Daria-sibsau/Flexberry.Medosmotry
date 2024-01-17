@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Medosmotry.model.KlassVredFaktor</class>
+        <class>Medosmotry.model.VrednFaktProiz</class>
+        <class>Medosmotry.model.Dolzhnosti</class>
+        <class>Medosmotry.model.Sotrudniki</class>
+        <class>Medosmotry.model.MedUchrezhdenie</class>
+        <class>Medosmotry.model.PrikazMZR</class>
+        <class>Medosmotry.model.Podrazdelenie</class>
+        <class>Medosmotry.model.IndNaprMedosm</class>
+        <class>Medosmotry.model.Organizacii</class>
+        <class>Medosmotry.model.KontingentSotr</class>
+        <class>Medosmotry.model.SpisokNaMedosm</class>
+        <class>Medosmotry.model.FlexberryAdvLimit</class>
+        <class>Medosmotry.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Medosmotry.model.NewPlatformFlexberryServicesLock</class>
+        <class>Medosmotry.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

@@ -1,0 +1,193 @@
+﻿{
+  "name": "IISMedosmotryКонтингентСотр",
+  "modelName": "i-i-s-medosmotry-контингент-сотр",
+  "className": "КонтингентСотр",
+  "nameSpace": "IIS.Medosmotry",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "всего",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "до21Года",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "женщины",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "мужчины",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "периодичность",
+      "type": "i-i-s-medosmotry-период-мед",
+      "flexberryType": "ПериодМед",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "классВредФактор",
+      "relatedTo": "i-i-s-medosmotry-класс-вред-фактор",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "подразделение",
+      "relatedTo": "i-i-s-medosmotry-подразделение",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "приказМЗР",
+      "relatedTo": "i-i-s-medosmotry-приказ-м-з-р",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "списокНаМедосм",
+      "relatedTo": "i-i-s-medosmotry-список-на-медосм",
+      "inverse": "контингентСотр"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КонтингентСотрE",
+      "modelName": "i-i-s-medosmotry-контингент-сотр",
+      "attrs": [
+        {
+          "name": "мужчины",
+          "caption": "Мужчины",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "женщины",
+          "caption": "Женщины",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "до21Года",
+          "caption": "До 21 года",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "всего",
+          "caption": "Всего",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "периодичность",
+          "caption": "Периодичность",
+          "hidden": false,
+          "index": 10
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Подразделение",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Подразделение",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Подразделение",
+          "name": "подразделение",
+          "relatedTo": "i-i-s-medosmotry-подразделение",
+          "inverse": null
+        },
+        {
+          "lookupValue": "ВредныйФактор",
+          "lookupValueField": "вредныйФактор",
+          "relationName": "КлассВредФактор",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "вредныйФактор",
+              "caption": "Вредный фактор",
+              "hidden": true,
+              "index": 7
+            }
+          ],
+          "index": 6,
+          "type": "standard",
+          "caption": "Вредный фактор",
+          "name": "классВредФактор",
+          "relatedTo": "i-i-s-medosmotry-класс-вред-фактор",
+          "inverse": null
+        },
+        {
+          "lookupValue": "НомерПункта",
+          "lookupValueField": "номерПункта",
+          "relationName": "ПриказМЗР",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерПункта",
+              "caption": "Номер пункта",
+              "hidden": true,
+              "index": 9
+            }
+          ],
+          "index": 8,
+          "type": "standard",
+          "caption": "Приказ МЗР",
+          "name": "приказМЗР",
+          "relatedTo": "i-i-s-medosmotry-приказ-м-з-р",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-medosmotry-класс-вред-фактор-e",
+  "editForm": "i-i-s-medosmotry-класс-вред-фактор-e",
+  "external": false,
+  "caption": "Класс вред фактор",
+  "name": "IISMedosmotryКлассВредФакторL",
+  "className": "КлассВредФакторL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-medosmotry-класс-вред-фактор",
+      "modelProjection": "КлассВредФакторL"
+    }
+  ]
+}

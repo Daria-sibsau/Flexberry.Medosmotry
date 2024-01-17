@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-medosmotry-мед-учреждение-e",
+  "editForm": "i-i-s-medosmotry-мед-учреждение-e",
+  "external": false,
+  "caption": "Мед учреждение",
+  "name": "IISMedosmotryМедУчреждениеL",
+  "className": "МедУчреждениеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-medosmotry-мед-учреждение",
+      "modelProjection": "МедУчреждениеL"
+    }
+  ]
+}

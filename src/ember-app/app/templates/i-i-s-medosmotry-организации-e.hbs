@@ -1,0 +1,97 @@
+<h3 class="ui header">{{t "forms.i-i-s-medosmotry-организации-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.наименование
+      class=(if (v-get validationModel "наименование" "isInvalid") "error")
+      label=(t "forms.i-i-s-medosmotry-организации-e.наименование-caption")
+      data-test-i-i-s-medosmotry-организации-e-наименование=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "наименование" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.иНН
+      class=(if (v-get validationModel "иНН" "isInvalid") "error")
+      label=(t "forms.i-i-s-medosmotry-организации-e.иНН-caption")
+      data-test-i-i-s-medosmotry-организации-e-иНН=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "иНН" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.кПП
+      class=(if (v-get validationModel "кПП" "isInvalid") "error")
+      label=(t "forms.i-i-s-medosmotry-организации-e.кПП-caption")
+      data-test-i-i-s-medosmotry-организации-e-кПП=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "кПП" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.оГРН
+      class=(if (v-get validationModel "оГРН" "isInvalid") "error")
+      label=(t "forms.i-i-s-medosmotry-организации-e.оГРН-caption")
+      data-test-i-i-s-medosmotry-организации-e-оГРН=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "оГРН" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.телефон
+      class=(if (v-get validationModel "телефон" "isInvalid") "error")
+      label=(t "forms.i-i-s-medosmotry-организации-e.телефон-caption")
+      data-test-i-i-s-medosmotry-организации-e-телефон=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "телефон" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.почта
+      class=(if (v-get validationModel "почта" "isInvalid") "error")
+      label=(t "forms.i-i-s-medosmotry-организации-e.почта-caption")
+      data-test-i-i-s-medosmotry-организации-e-почта=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "почта" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.юрАдрес
+      class=(if (v-get validationModel "юрАдрес" "isInvalid") "error")
+      label=(t "forms.i-i-s-medosmotry-организации-e.юрАдрес-caption")
+      data-test-i-i-s-medosmotry-организации-e-юрАдрес=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "юрАдрес" "message")}}
+  </div>
+</form>

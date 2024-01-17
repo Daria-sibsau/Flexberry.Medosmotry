@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISMedosmotryВреднФактПроиз",
+  "modelName": "i-i-s-medosmotry-вредн-факт-произ",
+  "className": "ВреднФактПроиз",
+  "nameSpace": "IIS.Medosmotry",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "классВредФактор",
+      "relatedTo": "i-i-s-medosmotry-класс-вред-фактор",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "индНапрМедосм",
+      "relatedTo": "i-i-s-medosmotry-инд-напр-медосм",
+      "inverse": "вреднФактПроиз"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ВреднФактПроизE",
+      "modelName": "i-i-s-medosmotry-вредн-факт-произ",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ВредныйФактор",
+          "lookupValueField": "вредныйФактор",
+          "relationName": "КлассВредФактор",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "вредныйФактор",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Вредные факторы",
+          "name": "классВредФактор",
+          "relatedTo": "i-i-s-medosmotry-класс-вред-фактор",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

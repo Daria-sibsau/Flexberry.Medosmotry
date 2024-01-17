@@ -1,0 +1,89 @@
+﻿{
+  "name": "IISMedosmotryСписокНаМедосм",
+  "modelName": "i-i-s-medosmotry-список-на-медосм",
+  "className": "СписокНаМедосм",
+  "nameSpace": "IIS.Medosmotry",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Now",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "контингентСотр",
+      "relatedTo": "i-i-s-medosmotry-контингент-сотр",
+      "inverse": "списокНаМедосм"
+    }
+  ],
+  "projections": [
+    {
+      "name": "СписокНаМедосмE",
+      "modelName": "i-i-s-medosmotry-список-на-медосм",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер документа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "КонтингентСотрE",
+          "caption": "Контингент сотрудников",
+          "name": "контингентСотр",
+          "relatedTo": "i-i-s-medosmotry-контингент-сотр",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "СписокНаМедосмL",
+      "modelName": "i-i-s-medosmotry-список-на-медосм",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер документа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

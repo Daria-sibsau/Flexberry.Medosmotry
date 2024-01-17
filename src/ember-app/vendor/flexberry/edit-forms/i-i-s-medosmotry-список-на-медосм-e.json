@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "подразделение",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "КонтингентСотр.Подразделение",
+      "projection": "ПодразделениеL",
+      "detailModelName": "i-i-s-medosmotry-контингент-сотр"
+    },
+    {
+      "master": "классВредФактор",
+      "displayAttributeName": "вредныйФактор",
+      "required": true,
+      "relationName": "КонтингентСотр.КлассВредФактор",
+      "projection": "КлассВредФакторL",
+      "detailModelName": "i-i-s-medosmotry-контингент-сотр"
+    },
+    {
+      "master": "приказМЗР",
+      "displayAttributeName": "номерПункта",
+      "required": true,
+      "relationName": "КонтингентСотр.ПриказМЗР",
+      "projection": "ПриказМЗРL",
+      "detailModelName": "i-i-s-medosmotry-контингент-сотр"
+    }
+  ],
+  "external": false,
+  "caption": "Список на медосм",
+  "name": "IISMedosmotryСписокНаМедосмE",
+  "className": "СписокНаМедосмE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-medosmotry-список-на-медосм",
+      "modelProjection": "СписокНаМедосмE"
+    }
+  ]
+}

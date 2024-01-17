@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-medosmotry-список-на-медосм-e",
+  "editForm": "i-i-s-medosmotry-список-на-медосм-e",
+  "external": false,
+  "caption": "Список на медосм",
+  "name": "IISMedosmotryСписокНаМедосмL",
+  "className": "СписокНаМедосмL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-medosmotry-список-на-медосм",
+      "modelProjection": "СписокНаМедосмL"
+    }
+  ]
+}

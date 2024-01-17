@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-medosmotry-подразделение-e",
+  "editForm": "i-i-s-medosmotry-подразделение-e",
+  "external": false,
+  "caption": "Подразделение",
+  "name": "IISMedosmotryПодразделениеL",
+  "className": "ПодразделениеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-medosmotry-подразделение",
+      "modelProjection": "ПодразделениеL"
+    }
+  ]
+}

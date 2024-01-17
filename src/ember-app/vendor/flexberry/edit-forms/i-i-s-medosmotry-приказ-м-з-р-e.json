@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Приказ МЗР",
+  "name": "IISMedosmotryПриказМЗРE",
+  "className": "ПриказМЗРE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-medosmotry-приказ-м-з-р",
+      "modelProjection": "ПриказМЗРE"
+    }
+  ]
+}

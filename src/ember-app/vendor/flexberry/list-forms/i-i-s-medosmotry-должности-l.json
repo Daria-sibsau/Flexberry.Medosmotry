@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-medosmotry-должности-e",
+  "editForm": "i-i-s-medosmotry-должности-e",
+  "external": false,
+  "caption": "Должности",
+  "name": "IISMedosmotryДолжностиL",
+  "className": "ДолжностиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-medosmotry-должности",
+      "modelProjection": "ДолжностиL"
+    }
+  ]
+}

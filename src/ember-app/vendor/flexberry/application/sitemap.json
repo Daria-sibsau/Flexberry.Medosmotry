@@ -1,0 +1,102 @@
+﻿{
+  "applicationCaption": "Medosmotry",
+  "applicationTitle": "Medosmotry",
+  "items": [
+    {
+      "link": null,
+      "menuName": "индивидуальные-направления",
+      "caption": "Индивидуальные направления",
+      "title": "Индивидуальные направления",
+      "children": [
+        {
+          "link": "i-i-s-medosmotry-инд-напр-медосм-l",
+          "menuName": null,
+          "caption": "Индивидуальное направление на медосмотр",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "формирование-списка-для-приказа",
+      "caption": "Формирование списка для приказа",
+      "title": "Формирование списка для приказа",
+      "children": [
+        {
+          "link": "i-i-s-medosmotry-список-на-медосм-l",
+          "menuName": null,
+          "caption": "Список на медосмотр",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочная-информация",
+      "caption": "Справочная информация",
+      "title": "Справочная информация",
+      "children": [
+        {
+          "link": "i-i-s-medosmotry-приказ-м-з-р-l",
+          "menuName": null,
+          "caption": "Приказ МЗР",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-medosmotry-класс-вред-фактор-l",
+          "menuName": null,
+          "caption": "Классификатор вредных факторов",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "организации-и-штат",
+      "caption": "Организации и штат",
+      "title": "Организации и штат",
+      "children": [
+        {
+          "link": "i-i-s-medosmotry-организации-l",
+          "menuName": null,
+          "caption": "Организации",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-medosmotry-подразделение-l",
+          "menuName": null,
+          "caption": "Подразделение",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-medosmotry-мед-учреждение-l",
+          "menuName": null,
+          "caption": "Медицинское учреждение",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-medosmotry-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-medosmotry-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
